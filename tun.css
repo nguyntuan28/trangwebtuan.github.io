@@ -1,0 +1,141 @@
+*{box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;}
+.banner{
+    background-color: greenyellow;
+    border: 1px rgb blanchedalmond;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 98%;
+    margin: 0px auto;
+}
+.name_banner{font-size: 50px;
+color: white;
+font-weight: bold;
+width: 98%;
+}
+
+.h1{
+    color: white;
+    background-color: paleturquoise;
+    border: 1px powderblue;
+    width: 750px;
+    height: 50px;
+    margin: 0px auto;
+    padding: 15px 10px 15px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.menu{
+    margin-left: 15px;
+    height: 40%;
+
+    left: 0;
+    top: 40;
+    width: 250px;
+    background-color: #333;
+    color: #ccc;
+}
+.root li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    transition: 0.3s;
+    /*text-align: center;*/
+    padding-left: 25px;
+}
+.root li:hover{
+    padding-left: 35px;
+    background-color: #445665;
+}
+.root li a{
+    display: block;
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* banner-slider */
+.banner-slider{
+    width: 325px; height: 434px;
+    background-color:  rgb(228, 228, 228);
+    margin: -300px 0px 30px 1200px;
+    font-size: large;
+    background: none;
+}
+footer{
+    background-color:pink;
+    text-align:center;
+    padding:25px;
+    font-size:18px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 1.5;
+    outline: none;
+
+} /* Menu cấp 1 */
+.menucap1 {
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    height: 50px;
+    margin-left: 15px;
+    margin: 0px auto rgb(228, 228, 228);
+}
+
+.menucap1 li {
+    list-style-type: none;
+    float: left;
+    
+    position: relative;
+}
+
+.menucap1 li a {
+    text-decoration: none;
+    color: #242121;
+    padding: 5px 30px;
+    display: block; line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menucap1 li a:hover {
+    background: crimson;
+    color: #fff;
+}
+
+.menucap1 li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+/* Menu cấp 2 */
+    .menucap2 {
+        z-index: 1;
+        display: none;
+        padding-left: 0px;
+        width: 270px;
+        background: rgb(228, 228, 228);
+    }
+
+    .menucap2 li {
+        border-top: 1px solid cornsilk;
+        float: none;
+    }
+
+    .menucap2 li a:hover {
+        background: chocolate;
+        color: white;
+    }
+/* Menu cấp 3 */
+.parag{
+    background-color:White;
+    margin: -460px 350px 30px 300px;
+    width: 650px;
+    height: 400px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    border-radius: 6px;
+}
